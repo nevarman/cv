@@ -63,9 +63,9 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1.3;
   color: #212529;
   text-align: left;
   background-color: #fff;
@@ -140,6 +140,9 @@ strong {
 
 small {
   font-size: 80%;
+}
+verysmall {
+  font-size: 50%;
 }
 
 sub,
@@ -431,6 +434,11 @@ hr {
 small,
 .small {
   font-size: 80%;
+  font-weight: 400;
+}
+verysmall
+.verysmall {
+  font-size: 50%;
   font-weight: 400;
 }
 
@@ -7657,7 +7665,7 @@ button.bg-dark:focus {
 
 .mb-5,
 .my-5 {
-  margin-bottom: 3rem !important;
+  margin-bottom: 1.5rem !important;
 }
 
 .ml-5,
@@ -7801,7 +7809,7 @@ button.bg-dark:focus {
 
 .pb-5,
 .py-5 {
-  padding-bottom: 3rem !important;
+  padding-bottom: 1.5rem !important;
 }
 
 .pl-5,
@@ -9682,7 +9690,7 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 
 .resume-wrapper {
   padding-top: 30px;
-  padding-bottom: 60px;
+  /* padding-bottom: 60px; */
 }
 
 .resume-wrapper-inner {
@@ -9696,7 +9704,7 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 }
 
 .resume-header .picture {
-  width: 220px;
+  width: 175px;
 }
 
 .resume-header .name {
@@ -9725,7 +9733,6 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
   font-size: 1rem;
   display: inline-block;
   width: 24px;
-  height: 24px;
   border-radius: 0.125rem;
   background: white;
   color: #434E5E;
