@@ -26,7 +26,7 @@ jobs:
       with:
         htmlFile: index.html
         outputFile: assets/resume.pdf
-        pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
+        pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"},"printBackground":true}'
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v1
       with:
