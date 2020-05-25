@@ -1,39 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@nevarman 
-nevarman
-/
-cv
-forked from xriley/pillar-theme
-0
-0
-104
- Code
- Pull requests 0 Actions
- Projects 0
- Wiki
- Security 0
- Insights
- Settings
-Create main.yml
-master @nevarman  2afca11
- 
-CI
-on: push
- 
-CI
-This run
-Workflow file
- 
-.github/workflows/main.yml
-# This is a basic workflow to help you get started with Actions
-
 name: CI
 
 # Controls when the action will run. Triggers the workflow on push or pull request
