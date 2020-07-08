@@ -1,5 +1,5 @@
 #### Download pdf versions below:
 
-[English](./assets/pdf/nevzat-arman-cv-en.pdf)
+[English](https://github.com/nevarman/cv/raw/master/assets/pdf/nevzat-arman-cv-en.pdf)
 
-[German](./assets/pdf/nevzat-arman-cv-de.pdf)
+[German (WIP)](https://github.com/nevarman/cv/raw/master/assets/pdf/nevzat-arman-cv-de.pdf)
